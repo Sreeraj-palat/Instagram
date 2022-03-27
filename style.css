@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    
+}
+.header{
+    background-color: #fff;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    border-bottom: thin solid rgba(0, 0, 0, 0.2);
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    padding-left:400px;
+    padding-top: 18px;
+}
+.search{
+   padding: 10px;
+   margin-top: 10px;
+   margin-left: 250px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    height: 22px;
+    width: 250px;
+    color: gray;
+    background-color: #efefef;
+}
+.searchbox{
+    border: 0;
+    background: transparent;
+}
+.icons{
+    padding-left: 80px;
+    display: flex;
+    padding-right: 20px;
+}
+.ic{
+    padding-left: 10px;
+    padding-top: 15px;
+    width: 30px;
+    height: 100px;
+}
+.ic img{
+    width: 25px;
+    height: 25px;
+}
+.ststus{
+   
+    height: 100px;
+    width: 42%;
+    background-color: #fff;
+    display: flex;
+    margin-left: 400px;
+    padding-left: 10px;
+    border-radius: 1px;
+    margin-top: 10px;
+    padding-top: 40px;
+    border: thin solid rgba(0, 0, 0, 0.2);
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    
+   
+    
+    
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+    height: 60px;
+    padding-left: 25px;
+    
+    
+   
+}
+.user img{
+    border-radius: 100%;
+    border: thin solid red;
+    padding: 2px;
+}
+.user p{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 13px;
+}
+.username{
+    
+    margin-top: 8px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 10px;
+    line-height: 15px;
+   
+}
+.post{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    /* height: 500px; */
+    width: 42.7%;
+    margin-left: 400px;
+    margin-top: 20px;
+    border: thin solid rgba(0, 0,0,.2);
+    
+
+}
+.post2{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    height: 500px;
+    width: 41.7%;
+    margin-left: 400px;
+    margin-top: 700px;
+    padding-top: 20px;
+    border: thin solid rgba(0, 0,0,.2);
+    
+
+}
+.user-head{
+    display: flex;
+    
+}
+.useracnd{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 8%;
+    height: 8%;
+    padding-left: 5px;
+    padding-top: 10px;
+    margin-top: 10px;
+    
+}
+.acountname{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    padding-left: 10px;
+    width: 80%;
+    padding-top: 10px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+
+    line-height: 18px;
+}
+.userimg{
+    width: 100%;
+
+
+}
+.userimg img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.userlike{
+    display: flex;
+   
+   
+}
+.like {
+    padding-left: 5px;
+    padding-right: 20px;
+    padding-top: 10px;
+    
+
+}
+.like img{
+    width: 25px;
+    height: 25px;
+}
+.save{
+    padding-left: 440px;
+    padding-top: 10px;
+}
+.save img{
+    width: 25px;
+    height: 25px;
+}
+.usercmnt{
+    border-bottom: 1px solid gray;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 200px;
+    margin-left: 8px;
+    
+}
+.addcmnt{
+    display: flex;
+    border-bottom: thin rgba(0, 0, 0, 0.2);
+    margin-left: 8px;
+
+}
+
+.smily{
+    display: flex;
+    padding-top: 10px;
+    display: flex;
+    
+    
+}
+.smily img{
+    display: flex;
+    width: 25px;
+    height: 25px;
+}
+.cmt p{
+    display: flex;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 8px;
+}
